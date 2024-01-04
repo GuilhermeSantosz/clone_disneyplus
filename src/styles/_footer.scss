@@ -39,9 +39,6 @@
   p {
     margin-bottom: 16px;
   }
-
-
-  
 }
 
 .language-selector {
@@ -49,22 +46,21 @@
   align-items: center;
   img {
     height: 18px;
-    width: 18px;  
+    width: 18px;
   }
-  
+
   select {
     background-color: transparent;
     border: none;
     color: variaveis.$corTextoPrincipal;
     height: 38px;
-    
+
     option {
       color: variaveis.$corDeFundo;
     }
-   
+
     &:hover {
       color: variaveis.$corTextoSecundario;
     }
-
   }
 }
